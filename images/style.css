@@ -1,7 +1,9 @@
 body{
     width: 100%;
-    margin: 0px;
+    margin: 0%;
+    padding: 0%;
     font-family: 'Poppins', sans-serif;
+    
     }
 h1{
    font-size: 50px;
@@ -14,9 +16,14 @@ h1 span{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+   
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
+}
+
+.focused-shadow{
+    box-shadow: -5px 0px 0px 0px tomato;
 }
 .link-button{
     text-decoration: none;
@@ -35,3 +42,35 @@ p{
     text-align: center;
     font-weight: 700;
 }
+.flexible-container{
+    float: left;
+    display: flex;
+    padding: 2%;
+
+}
+
+.mission-item-box{
+
+    margin-left: 15px;
+    background-color: thistle;
+    padding: 10px 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.vision-item-box{
+
+    margin-left: 15px;
+    background-color: wheat;
+    padding: 10px 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.goal-item-box{
+    margin-left: 15px;
+    background-color:  white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
