@@ -2,7 +2,7 @@ body{
     width: 100%;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
-}
+    }
 h1{
    font-size: 50px;
 }
@@ -14,4 +14,24 @@ h1 span{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(tomato);
+    color: white;
+    font-weight: 700;
+    line-height: 1.8;
+}
+p{
+    line-height: 1.8;
+}
+.mission{
+    text-align: center;
+    font-weight: 700;
 }
